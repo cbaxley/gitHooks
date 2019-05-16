@@ -1,0 +1,9 @@
+{
+  "name": "githooks",
+  "description": "Run methods from git webhooks posts",
+  "memory": 128,
+  "timeout": 5,
+  "role": "arn:aws:iam::855899920836:role/githooks_lambda_function",
+  "environment": {},
+  "runtime": "python3.6"
+}
