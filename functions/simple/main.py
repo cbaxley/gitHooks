@@ -44,7 +44,7 @@ class Resolver:
         self.classname = self.snake_to_studly(self.event_string)
 
     def get_class(self):
-        print(f'Setting handler to : "{self.classname}"')
+        print(f'Setting handler to: "{self.classname}"')
         try:
             self.handler = globals()[self.classname]()
         except:
