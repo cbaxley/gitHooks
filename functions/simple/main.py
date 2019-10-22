@@ -6,6 +6,7 @@ import urllib.parse as urlparse
 async def test_async_generator():
     for i in range(5):
         yield i
+        print(i)
         await asyncio.sleep(0.01)
 
 
